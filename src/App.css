@@ -1,0 +1,77 @@
+nav {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 209, 67, 1) 0%,
+    rgba(255, 145, 83, 1) 90%
+  );
+}
+
+.nav {
+  border-radius: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+#hover-button {
+  position: fixed;
+  left: 0;
+  border-radius: 50px;
+  top: 150px;
+  z-index: 1;
+  width: 45px;
+  height: 35px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#hover-button:hover {
+  width: 100px;
+}
+
+#hover-button div {
+  font-size: 10px;
+}
+
+.auth-width {
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    margin-top: 3px !important;
+    border-radius: 5px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    text-align: center !important;
+  }
+  .hide {
+    display: none !important;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .col-3 {
+    flex: 0 0 auto !important;
+    width: 50% !important;
+  }
+
+  .img-height {
+    height: 150px !important;
+  }
+
+  .viewDetails-img-height {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .offwidth {
+    width: 60% !important;
+  }
+
+  .auth-width {
+    width: 100% !important;
+  }
+}
